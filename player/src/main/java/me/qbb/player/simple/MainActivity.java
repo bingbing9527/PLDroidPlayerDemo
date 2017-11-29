@@ -90,7 +90,7 @@ public class MainActivity extends AppCompatActivity {
                 .setOnClickReconnectListener(new TCPlayer.OnClickReconnectListener() {
                     @Override
                     public void onClickReconnect(View v, TCPlayer tcPlayer, long currenPosition) {
-                        tcPlayer.setVideoPath("http://us.sinaimg.cn/0016CbqJjx07gbIRdvIX01040101Uk2w0k02.mp4?label=mp4_hd&template=28&Expires=1511952108&ssig=yjppjl5he%2B&KID=unistore,video");
+                        tcPlayer.setVideoPath("http://ors68wv1p.bkt.clouddn.com/video/mp4/MV.mp4");
                         tcPlayer.play(currenPosition);
                     }
                 });
@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
                     }
                     tcPlayer.showFull(false)
                             .setVideoBgUrl("https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2291319651,1418676676&fm=27&gp=0.jpg")
-                            .setVideoPath("http://us.sinaimg.cn/0016CbqJjx07gbIRdvIX01040101Uk2w0k02.mp4?label=mp4_hd&template=28&Expires=1511952108&ssig=yjppjl5he%2B&KID=unistore,video")
+                            .setVideoPath("http://ors68wv1p.bkt.clouddn.com/video/mp4/MV.mp4")
                             .noAnimationShowAll(0);
                 }
             }

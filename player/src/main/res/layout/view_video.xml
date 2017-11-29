@@ -239,7 +239,8 @@
 
             <LinearLayout
                 android:id="@+id/ll_reconnect"
-                android:layout_width="80dp"
+                android:layout_width="wrap_content"
+                android:minWidth="80dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="10dp"
